@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nox:*)",
+      "Bash(timeout 180 cmd:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

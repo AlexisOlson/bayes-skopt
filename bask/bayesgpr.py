@@ -16,7 +16,7 @@ __all__ = ["BayesGPR"]
 
 
 class BayesGPR(GaussianProcessRegressor):
-    """ Gaussian process regressor of which the kernel hyperparameters are inferred in a
+    """Gaussian process regressor of which the kernel hyperparameters are inferred in a
     fully Bayesian framework.
 
     The implementation is based on Algorithm 2.1 of Gaussian Processes for Machine
@@ -218,7 +218,7 @@ class BayesGPR(GaussianProcessRegressor):
 
     @property
     def X_train_(self):
-        """ The training data which was used to train the Gaussian process.
+        """The training data which was used to train the Gaussian process.
 
         If input warping is used, it will return the warped instances.
 
